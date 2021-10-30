@@ -37,6 +37,6 @@ class CustomerTest extends TestCase
             'cpf' => 'rross123apoqpo'
         ]);
 
-        $this->assertEquals(1234, $create->cpf);
+        $this->assertEquals(123, $create->cpf);
     }
 }
